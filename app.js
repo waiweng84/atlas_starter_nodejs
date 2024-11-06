@@ -6,7 +6,7 @@ async function run() {
   // Altas cluster specifics. Be sure it includes
   // a valid username and password! Note that in a production environment,
   // you do not want to store your password in plain-text here.
-  const uri = process.env.mongodb_uri
+  const uri = process.env.MONGODB_URI
   //"mongodb+srv://<user>:<password>@<cluster-url>?retryWrites=true&w=majority";
 
   // The MongoClient is the object that references the connection to our
